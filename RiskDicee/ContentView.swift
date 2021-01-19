@@ -26,7 +26,7 @@ struct ContentView: View {
                 .foregroundColor(.white)
                 .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
             Spacer()
-            Text("Attack")
+            Text("⚔️ Attack ⚔️")
                 .font(.title)
                 .fontWeight(.bold)
                 .foregroundColor(.yellow)
@@ -36,8 +36,8 @@ struct ContentView: View {
                 Image("dice\(centerDiceNumberA)")
                 Image("dice\(rightDiceNumberA)")
             }
-            
-            Text("Defense")
+            Spacer()
+            Text("🛡 Defense 🛡")
                 .font(.title)
                 .fontWeight(.bold)
                 .foregroundColor(.yellow)
