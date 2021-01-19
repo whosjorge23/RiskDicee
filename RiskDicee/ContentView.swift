@@ -83,6 +83,15 @@ struct ContentView: View {
                 .scaledToFill()
         )
         .edgesIgnoringSafeArea(.all)
+        .onAppear(perform: {
+            self.leftDiceNumberA = Int.random(in: 1...6)
+            self.centerDiceNumberA = Int.random(in: 1...6)
+            self.rightDiceNumberA = Int.random(in: 1...6)
+            
+            self.leftDiceNumberD = Int.random(in: 1...6)
+            self.centerDiceNumberD = Int.random(in: 1...6)
+            self.rightDiceNumberD = Int.random(in: 1...6)
+        })
     }
 }
 
