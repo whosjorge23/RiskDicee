@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED29089725B73B3600E31754 /* DiceDefenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29089625B73B3600E31754 /* DiceDefenseView.swift */; };
+		ED29089B25B7403C00E31754 /* DiceAttackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29089A25B7403C00E31754 /* DiceAttackView.swift */; };
 		ED6FAF4B25B60A7E00496E06 /* RiskDiceeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FAF4A25B60A7E00496E06 /* RiskDiceeApp.swift */; };
 		ED6FAF4D25B60A7E00496E06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FAF4C25B60A7E00496E06 /* ContentView.swift */; };
 		ED6FAF4F25B60A8100496E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6FAF4E25B60A8100496E06 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED29089625B73B3600E31754 /* DiceDefenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceDefenseView.swift; sourceTree = "<group>"; };
+		ED29089A25B7403C00E31754 /* DiceAttackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceAttackView.swift; sourceTree = "<group>"; };
 		ED6FAF4725B60A7E00496E06 /* RiskDicee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiskDicee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6FAF4A25B60A7E00496E06 /* RiskDiceeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskDiceeApp.swift; sourceTree = "<group>"; };
 		ED6FAF4C25B60A7E00496E06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 			children = (
 				ED6FAF4A25B60A7E00496E06 /* RiskDiceeApp.swift */,
 				ED6FAF4C25B60A7E00496E06 /* ContentView.swift */,
+				ED29089625B73B3600E31754 /* DiceDefenseView.swift */,
+				ED29089A25B7403C00E31754 /* DiceAttackView.swift */,
 				ED6FAF4E25B60A8100496E06 /* Assets.xcassets */,
 				ED6FAF5325B60A8100496E06 /* Info.plist */,
 				ED6FAF5025B60A8100496E06 /* Preview Content */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED6FAF4D25B60A7E00496E06 /* ContentView.swift in Sources */,
+				ED29089725B73B3600E31754 /* DiceDefenseView.swift in Sources */,
 				ED6FAF4B25B60A7E00496E06 /* RiskDiceeApp.swift in Sources */,
+				ED29089B25B7403C00E31754 /* DiceAttackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

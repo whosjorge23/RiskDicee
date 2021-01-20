@@ -32,9 +32,12 @@ struct ContentView: View {
                 .foregroundColor(.yellow)
                 .shadow(color: .black, radius: 10, x: 0.0, y: 0.0)
             HStack{
-                Image("dice\(leftDiceNumberA)")
-                Image("dice\(centerDiceNumberA)")
-                Image("dice\(rightDiceNumberA)")
+//                Image("dice\(leftDiceNumberA)")
+//                Image("dice\(centerDiceNumberA)")
+//                Image("dice\(rightDiceNumberA)")
+                DiceAttackView(number: leftDiceNumberA)
+                DiceAttackView(number: centerDiceNumberA)
+                DiceAttackView(number: rightDiceNumberA)
             }
             Spacer()
             Text("🛡 Defense 🛡")
@@ -44,9 +47,12 @@ struct ContentView: View {
                 .shadow(color: .black, radius: 10, x: 0.0, y: 0.0)
             
             HStack{
-                Image("diceE\(leftDiceNumberD)")
-                Image("diceE\(centerDiceNumberD)")
-                Image("diceE\(rightDiceNumberD)")
+//                Image("diceE\(leftDiceNumberD)")
+//                Image("diceE\(centerDiceNumberD)")
+//                Image("diceE\(rightDiceNumberD)")
+                DiceDefenseView(number: leftDiceNumberD)
+                DiceDefenseView(number: centerDiceNumberD)
+                DiceDefenseView(number: rightDiceNumberD)
             }
             Spacer()
             
